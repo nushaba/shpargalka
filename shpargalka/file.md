@@ -52,7 +52,9 @@ git revert 1af17e `Откат заданного коммита`
 ## Работа с внешними репозиториями
 git clone https://github.com/someurl... `– клонирование внешнего репозитория на  локальный ПК`
 
-git remote add awesomeapp https://github.com/someurl... `Добавление внешнего репозитория`
+git remote add awesomeapp https://github.com/nick... `Добавление внешнего репозитория`
+git remote add <name, обычно это origin> <url репозитория>
+git push --set-upstream <name, который указал выше> <branch, имя текущей ветки>
 
 git push `Отправка локальной версии репозитория на внешний`
 
